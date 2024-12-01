@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation'
 export default function Sidebar() {
   const pathname = usePathname()
   const menuItems = [
-  { name: 'Trang chủ', href: '/trang-chu', icon: Home },
+  { name: 'Trang chủ', href: '/', icon: Home },
   { name: 'Tài khoản', href: '/tai-khoan', icon: User },
   { name: 'Chi tiêu', href: '/chi-tieu', icon: DollarSign },
   {name: 'Thu nhập', href: '/thu-nhap', icon: TrendingUp},
